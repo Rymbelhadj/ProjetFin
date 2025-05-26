@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:simple": "node simple_server.js",
+    "dev:simple": "nodemon simple_server.js"
   },
   "keywords": [],
   "author": "",
@@ -22,3 +25,4 @@
     "nodemon": "^3.1.10"
   }
 }
+
